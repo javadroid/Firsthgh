@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.akologaji.first.MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/idCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Code"
+        />
+
+    <EditText
+        android:id="@+id/idDepart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"
+        android:hint="Department" />
+
+    <EditText
+        android:id="@+id/idLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"
+        android:hint="Level" />
+
+    <EditText
+        android:id="@+id/idSem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"
+        android:hint="Semester" />
+
+    <EditText
+        android:id="@+id/idSec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"
+        android:hint="Section" />
+
+    <EditText
+        android:id="@+id/idPrice"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Price" />
+
+    <EditText
+        android:id="@+id/IdName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+
+
+    <Button
+        android:id="@+id/idAddDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        />
+
+    <Button
+        android:id="@+id/iddDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        />
+
+
+
+    <Button
+        android:id="@+id/idViewDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        />
+
+
+    <Button
+        android:id="@+id/idViewList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List"
+        />
+</LinearLayout>
